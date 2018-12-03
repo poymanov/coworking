@@ -299,6 +299,7 @@ body {
   display: inline-block;
   font-family: 'Myriad Pro', Helvetica, sans-serif;
   text-decoration: none;
+  color: #221f1f;
 }
 
 .pagination__page {

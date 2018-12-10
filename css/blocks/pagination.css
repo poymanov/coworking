@@ -1,0 +1,42 @@
+.pagination {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.pagination__description {
+  display: inline-block;
+  color: #656464;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 300;
+  margin-right: 10px;
+}
+
+.pagination__content {
+  display: inline-block;
+}
+
+.pagination__direction {
+  display: inline-block;
+  font-family: 'Myriad Pro', Helvetica, sans-serif;
+  text-decoration: none;
+  color: #221f1f;
+}
+
+.pagination__page {
+  display: inline-block;
+}
+
+.pagination__pages {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.pagination__link {
+  text-decoration: none;
+  color: #221f1f;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+}

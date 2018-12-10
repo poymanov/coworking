@@ -1,0 +1,30 @@
+.contacts__header {
+  position: absolute;
+  top: 21px;
+  right: 0;
+}
+
+.contacts__phone {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none
+}
+
+.contacts__work-schedule {
+  text-align: right;
+}
+
+.contacts__work-schedule-link {
+  opacity: 0.7;
+  color: #ec1e79;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.contacts__work-schedule-details {
+  display: none;
+}

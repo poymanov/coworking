@@ -1,0 +1,8 @@
+.header {
+  background-color: #27273e;
+}
+
+.container__header {
+  position: relative;
+  height: 77px;
+}

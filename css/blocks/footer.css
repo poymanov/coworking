@@ -1,0 +1,10 @@
+.footer {
+  background-color: #27273e;
+  padding: 10px 0 15px;
+}
+
+.logo__footer {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 306px;
+}

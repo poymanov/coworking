@@ -1,0 +1,16 @@
+.author {
+  color: #ffffff;
+  font-family: "Gotham Pro";
+  font-size: 14px;
+  width: 264px;
+  line-height: 18px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 250px;
+}
+
+.author__link {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+}

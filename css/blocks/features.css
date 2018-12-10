@@ -1,0 +1,47 @@
+.features {
+  margin-bottom: 25px;
+}
+
+.features-item {
+  text-align: center;
+  width: 207px;
+  display: inline-block;
+  color: #221f1f;
+  font-size: 18px;
+}
+
+.features-item__title {
+  color: #212121;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.features-item:before {
+  content: '';
+  display: inline-block;
+  width: 68px;
+  height: 68px;
+  background-color: #27273e;
+  border-radius: 50%;
+  margin-bottom: 25px;
+  background-position: center center;
+  background-repeat: no-repeat;  
+}
+
+.features--flower:before {
+  background-image: url('../../img/icons/features-flower.png');
+}
+
+.features--star:before {
+  background-image: url('../../img/icons/features-star.png');
+}
+
+.features--palette:before {
+  background-image: url('../../img/icons/features-palette.png');
+}
+
+.features-item__item {
+  margin-bottom: 15px;
+}

@@ -4,7 +4,14 @@
 }
 
 .logo__footer {
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 306px;
+  margin-right: 309px;
+}
+
+.container__footer {
+  display: flex;
+  align-items: center;
+}
+
+.author__footer {
+  margin-right: 211px;
 }

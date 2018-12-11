@@ -1,15 +1,10 @@
-.contacts__header {
-  position: absolute;
-  top: 21px;
-  right: 0;
-}
-
 .contacts__phone {
+  line-height: 0.9em;
   color: #ffffff;
   font-size: 21px;
   font-weight: bold;
   text-transform: uppercase;
-  text-decoration: none
+  text-decoration: none;
 }
 
 .contacts__work-schedule {
@@ -23,6 +18,11 @@
   font-size: 14px;
   font-weight: bold;
   text-decoration: underline;
+}
+
+.contacts__work-schedule-link:hover {
+  opacity: 0.7;
+  color: #5dd1f8;
 }
 
 .contacts__work-schedule-details {

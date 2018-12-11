@@ -16,10 +16,11 @@ body {
 }
 
 .content-title {
+  line-height: 0.8em;
   color: #221f1f;
   font-size: 49px;
   font-weight: bold;
-  margin-top: 0;
+  margin: 0;
 }
 
 .wrapper {

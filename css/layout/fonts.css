@@ -13,11 +13,3 @@
   font-weight: bold;
   font-style: normal;
 }
-
-@font-face {
-  font-family: 'Myriad Pro';
-  src: url("../../fonts/MyriadProRegular.woff2") format("woff2"),
-    url("../../fonts/MyriadProRegular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-}

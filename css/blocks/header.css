@@ -3,6 +3,12 @@
 }
 
 .container__header {
-  position: relative;
   height: 77px;
+  display: flex;
+  align-items: center;
+  padding-top: 7px;
+}
+
+.logo__header {
+  margin-right: auto;
 }

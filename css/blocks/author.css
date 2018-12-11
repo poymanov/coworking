@@ -1,12 +1,9 @@
 .author {
   color: #ffffff;
-  font-family: "Gotham Pro";
+  font-family: 'Gotham Pro', Helvetica, sans-serif;
   font-size: 14px;
-  width: 264px;
-  line-height: 18px;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 250px;
+  width: 270px;
+  line-height: 1.3em;
 }
 
 .author__link {

@@ -5,7 +5,7 @@
 }
 
 .menu-item {
-  margin-bottom: 25px;
+  margin-bottom: 32px;
 }
 
 .menu-link {
@@ -13,7 +13,10 @@
   text-decoration: none;
   text-transform: uppercase;
   color: #ec1e79;
-  font-size: 12px; 
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 1.2px;
 }
 
 .menu-item--active .menu-link,
@@ -23,16 +26,15 @@
 
 .menu-link::before {
   content: '';
-  display: inline-block;
   background-position: center center;
   background-repeat: no-repeat; 
   width: 20px;
-  height: 18px; 
+  height: 18px;
+  margin-right: 18px;
 }
 
 .menu-link--main:before {
   background-image: url('../../img/icons/menu-main.png');
-  margin-right: 10px;
 }
 
 .menu-item--active .menu-link--main:before,
@@ -42,8 +44,8 @@
 
 .menu-link--feed:before {
   background-image: url('../../img/icons/menu-feed.png');
-  margin-right: 7px;
 }
+
 .menu-item--active .menu-link--feed:before,
 .menu-link--feed:hover:before {
   background-image: url('../../img/icons/menu-feed-active.png');
@@ -51,7 +53,6 @@
 
 .menu-link--wallet:before {
   background-image: url('../../img/icons/menu-wallet.png');
-  margin-right: 8px;
 }
 
 .menu-item--active .menu-link--wallet:before,

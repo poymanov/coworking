@@ -1,6 +1,6 @@
 .socials__title {
   color: #ffffff;
-  font-family: "Gotham Pro";
+  font-family: 'Gotham Pro', Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 5px;
@@ -10,12 +10,12 @@
   margin: 0;
   padding: 0;
   list-style-type: none;
+  display: flex;
 }
 
 .socials__item {
-  display: inline-block;
   font-size: 0;
-  margin-right: 7px;
+  margin-right: 11px;
 }
 
 .social__link {

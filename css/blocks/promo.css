@@ -1,0 +1,19 @@
+.promo {
+  min-height: 174px;
+  background: url('../../img/promo-bg.png') center center repeat;
+  color: #ffffff;
+  font-family: "Gotham Pro";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.63em;
+}
+
+.promo__discount {
+  color: #ec1e79;
+  font-weight: 700;
+}
+
+.promo__container {
+  padding-top: 41px;
+  padding-left: 215px;
+}

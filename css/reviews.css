@@ -1,0 +1,24 @@
+@import url('blocks/reviews.css');
+@import url('blocks/promo.css');
+@import url('blocks/feedback-form.css');
+
+.breadcrumbs--reviews {
+  margin-bottom: 29px;
+}
+
+.main--reviews {
+  margin-bottom: 57px;
+}
+
+.promo--reviews {
+  margin-bottom: 56px;
+}
+
+.content-title__feedback-form {
+  margin-bottom: 26px;
+}
+
+.feedback--reviews {
+  margin-bottom: 49px;
+}
+

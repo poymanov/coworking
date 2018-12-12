@@ -47,3 +47,15 @@ ul {
 ul li {
   list-style: none;
 }
+
+.container--index {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 65px;
+}
+
+.container--reviews {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 42px;
+}

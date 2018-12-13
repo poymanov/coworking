@@ -1,0 +1,22 @@
+.partner {
+  margin-right: 112px;
+  margin-bottom: 48px;
+}
+
+.partner:nth-child(3n+3) {
+  margin-right: 0;
+}
+
+.partner__link {
+  width: 160px;
+  display: block;
+  text-align: center;
+}
+
+.partner__image {
+  filter: grayscale(100%);
+}
+
+.partner__image:hover {
+  filter: grayscale(0);
+}

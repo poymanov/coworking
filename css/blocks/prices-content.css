@@ -1,0 +1,4 @@
+.prices-content {
+  display: flex;
+  flex-wrap: wrap;
+}

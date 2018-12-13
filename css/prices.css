@@ -1,0 +1,29 @@
+@import url('blocks/reviews.css');
+@import url('blocks/prices-content.css');
+@import url('blocks/prices-item.css');
+@import url('blocks/partners.css');
+@import url('blocks/partners-content.css');
+@import url('blocks/partner.css');
+
+.container--prices {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 42px;
+}
+
+.breadcrumbs--prices {
+  margin-bottom: 29px;
+}
+
+.content-title__prices {
+  margin-bottom: 50px;
+}
+
+.prices--prices {
+  margin-bottom: 27px;
+}
+
+.partners--prices {
+  margin-bottom: 40px;
+}
+

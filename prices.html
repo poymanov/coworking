@@ -15,17 +15,21 @@
     <div class="wrapper__content">
       <header class="header">
         <div class="container container__header">
-          <div class="logo logo__header">
-            <a href="#" class="logo__link"><img src="img/logo.png" width="99px" height="51px" alt="Коворкинг" class="logo__image"></a>
+          <div class="header__column">
+            <div class="logo logo__header">
+              <a href="workadium.html" class="logo__link"><img src="img/logo.png" width="99px" height="51px" alt="Коворкинг" class="logo__image"></a>
+            </div>
           </div>
-          <div class="contacts contacts__header">
-            <a href="tel:88000039210" class="contacts__phone">8 (800) 00-392-10</a>
-            <div class="contacts__work-schedule">
-              <a href="#" class="contacts__work-schedule-link">График работы</a>
-              <ul class="contacts__work-schedule-details">
-                <li class="contacts__work-schedule-time">пн-вс: 09:00-20:00</li>
-                <li class="contacts__work-schedule-time">обед: 14:00-14:30</li>
-              </ul>
+          <div class="header__column header__column--align-right">
+            <div class="contacts contacts__header">
+              <a href="tel:88000039210" class="contacts__phone">8 (800) 00-392-10</a>
+              <div class="contacts__work-schedule">
+                <a href="#" class="contacts__work-schedule-link">График работы</a>
+                <ul class="contacts__work-schedule-details">
+                  <li class="contacts__work-schedule-time">пн-вс: 09:00-20:00</li>
+                  <li class="contacts__work-schedule-time">обед: 14:00-14:30</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -50,7 +54,7 @@
           <div class="content">
             <ul class="breadcrumbs breadcrumbs--prices">
               <li class="breadcrumbs__item">
-                <a href="#" class="breadcrumbs__link">Главная</a>
+                <a href="workadium.html" class="breadcrumbs__link">Главная</a>
               </li>
               <li class="breadcrumbs__item breadcrumbs__item--active">
                 <a href="#" class="breadcrumbs__link">Тарифы</a>
@@ -64,7 +68,7 @@
                     <div class="prices-item__name">«один»</div>
                     <img src="img/prices/price-01.jpg" alt="800 руб/мес или 100 руб/сутки" width="250" height="153">
                   </div>
-                  <div class="prices-item__title">800 руб/мес<br> или 100 руб/сутки</div>
+                  <p class="prices-item__title">800 руб/мес<br> или 100 руб/сутки</p>
                   <div class="prices-item__desc">
                     Оплачивается рабочее место на 1 человека. Есть возможность оплаты с привязкой к определенному физическому месту. При оплате за год, скидка 30%.
                   </div>                  
@@ -74,7 +78,7 @@
                     <div class="prices-item__name">«трое»</div>
                     <img src="img/prices/price-02.jpg" alt="1 500 руб/мес или 200 руб/сутки" width="250" height="153">
                   </div>
-                  <div class="prices-item__title">1 500 руб/мес<br> или 200 руб/сутки</div>
+                  <p class="prices-item__title">1 500 руб/мес<br> или 200 руб/сутки</p>
                   <div class="prices-item__desc">
                     Оплачивается стол на 3 рабочих места. При этом можно ими пользоваться как одновременно, так и поочередно. Можно пользоваться офисной техникой и выделенным шкафом для документов.
                   </div>                  
@@ -84,7 +88,7 @@
                     <div class="prices-item__name">«10-10»</div>
                     <img src="img/prices/price-03.jpg" alt="10 000 руб/мес" width="250" height="153">
                   </div>
-                  <div class="prices-item__title">10 000 руб/мес</div>
+                  <p class="prices-item__title">10 000 руб/мес</p>
                   <div class="prices-item__desc">
                     Оплачивается 10 рабочих мест на любые 10 дней месяца. Отлично подходит для периодической работы команды сотрудников без строгой привязки к рабочему месту. При оплате на год вперед скидка 25%
                   </div>                  
@@ -94,7 +98,7 @@
                     <div class="prices-item__name"><div class="prices-item__vip">vip</div>«Безлимит<br> на одного»</div>
                     <img src="img/prices/price-04.jpg" alt="2 500 руб/мес" width="250" height="153">
                   </div>
-                  <div class="prices-item__title">2 500 руб/мес</div>
+                  <p class="prices-item__title">2 500 руб/мес</p>
                   <div class="prices-item__desc">
                     Оплачивается 10 рабочих мест на любые 10 дней месяца. Отлично подходит для периодической работы команды сотрудников без строгой привязки к рабочему месту. При оплате на год вперед скидка 25%
                   </div>                  
@@ -104,7 +108,7 @@
                     <div class="prices-item__name"><div class="prices-item__vip">vip</div>«Все<br> включено»</div>
                     <img src="img/prices/price-05.jpg" alt="Цена рассчитывается индивидуально" width="250" height="153">
                   </div>
-                  <div class="prices-item__title">Цена рассчитывается индивидуально</div>
+                  <p class="prices-item__title">Цена рассчитывается индивидуально</p>
                   <div class="prices-item__desc">
                     Оплачивается необходимое число рабочих мест с привязкой к фактическому местонахождению. В стоимость включены рабочие столы, мебель для хранения документов, отдельный принтер и копировальный автомат.
                   </div>                  
@@ -162,33 +166,39 @@
     </div>
     <footer class="footer">
       <div class="container container__footer">
-        <div class="author author__footer">
-          Сделано с любовью и старанием<br> на курсе «HTML + CSS» в <a href="https://loftschool.com/course/html-css/"
-            class="author__link" target="_blank">LoftSchool</a>.
-          Автор работы: <a href="https://github.com/poymanov" class="author__link" target="_blank">Пойманов Николай</a>
+        <div class="footer__column">
+          <div class="author author__footer">
+            Сделано с любовью и старанием<br> на курсе «HTML + CSS» в <a href="https://loftschool.com/course/html-css/"
+              class="author__link" target="_blank">LoftSchool</a>.<br>
+            Автор работы: <a href="https://github.com/poymanov" class="author__link" target="_blank">Пойманов Николай</a>
+          </div>
         </div>
-        <div class="logo logo__footer">
-          <a href="#" class="logo__link"><img src="img/logo.png" alt="Коворкинг" class="logo__image"></a>
+        <div class="footer__column footer__column--center">
+          <div class="logo">
+            <a href="workadium.html" class="logo__link"><img src="img/logo.png" alt="Коворкинг" class="logo__image"></a>
+          </div>
         </div>
-        <div class="socials">
-          <div class="socials__title">Наши социальные сети</div>
-          <ul class="socials__list">
-            <li class="socials__item">
-              <a href="#" class="social__link social__link--vk">vk</a>
-            </li>
-            <li class="socials__item">
-              <a href="#" class="social__link social__link--fb">fb</a>
-            </li>
-            <li class="socials__item">
-              <a href="#" class="social__link social__link--google">google</a>
-            </li>
-            <li class="socials__item">
-              <a href="#" class="social__link social__link--tw">tw</a>
-            </li>
-            <li class="socials__item">
-              <a href="#" class="social__link social__link--mail">email</a>
-            </li>
-          </ul>
+        <div class="footer__column footer__column--right">
+          <div class="socials socials__footer">
+            <div class="socials__title">Наши социальные сети</div>
+            <ul class="socials__list">
+              <li class="socials__item">
+                <a href="#" class="social__link social__link--vk">vk</a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="social__link social__link--fb">fb</a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="social__link social__link--google">google</a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="social__link social__link--tw">tw</a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="social__link social__link--mail">email</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>

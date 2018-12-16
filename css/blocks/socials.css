@@ -51,8 +51,3 @@
 .social__link--mail {
   background-image: url('../../img/socials-mail.png');
 }
-
-.socials {
-  display: inline-block;
-  vertical-align: top;
-}

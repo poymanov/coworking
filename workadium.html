@@ -15,17 +15,21 @@
     <div class="wrapper__content">
       <header class="header">
         <div class="container container__header">
-          <div class="logo logo__header">
-            <a href="#" class="logo__link"><img src="img/logo.png" width="99px" height="51px" alt="Коворкинг" class="logo__image"></a>
+          <div class="header__column">
+            <div class="logo logo__header">
+              <a href="workadium.html" class="logo__link"><img src="img/logo.png" width="99px" height="51px" alt="Коворкинг" class="logo__image"></a>
+            </div>
           </div>
-          <div class="contacts contacts__header">
-            <a href="tel:88000039210" class="contacts__phone">8 (800) 00-392-10</a>
-            <div class="contacts__work-schedule">
-              <a href="#" class="contacts__work-schedule-link">График работы</a>
-              <ul class="contacts__work-schedule-details">
-                <li class="contacts__work-schedule-time">пн-вс: 09:00-20:00</li>
-                <li class="contacts__work-schedule-time">обед: 14:00-14:30</li>
-              </ul>
+          <div class="header__column header__column--align-right">
+            <div class="contacts contacts__header">
+              <a href="tel:88000039210" class="contacts__phone">8 (800) 00-392-10</a>
+              <div class="contacts__work-schedule">
+                <a href="#" class="contacts__work-schedule-link">График работы</a>
+                <ul class="contacts__work-schedule-details">
+                  <li class="contacts__work-schedule-time">пн-вс: 09:00-20:00</li>
+                  <li class="contacts__work-schedule-time">обед: 14:00-14:30</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -87,10 +91,14 @@
               <h2 class="content-title content-title__news">Последние новости</h2>
               <div class="news-content">
                 <div class="news-item">
-                  <img src="img/news/news-01.jpg" alt="Чёрная дыра скидок!" class="news-item__image" width="160px" height="160px">
+                  <div class="news-item__info">
+                    <div class="news-item__image">
+                      <img src="img/news/news-01.jpg" alt="Чёрная дыра скидок!" class="news-item__pic">
+                    </div>                    
+                  </div>                
                   <div class="news-item__content">
-                    <div class="news-item__date">12.10.2016</div>
-                    <div class="news-item__title">Чёрная дыра скидок!</div>
+                    <p class="news-item__date">12.10.2016</p>
+                    <p class="news-item__title">Чёрная дыра скидок!</p>
                     <div class="news-item__text">
                       Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь в
                       500
@@ -100,11 +108,14 @@
                   </div>
                 </div>
                 <div class="news-item">
-                  <img src="img/news/news-02.jpg" alt="Заражай друзей, получай призы!" class="news-item__image" width="160px"
-                    height="160px">
+                  <div class="news-item__info">
+                    <div class="news-item__image">
+                      <img src="img/news/news-02.jpg" alt="Заражай друзей, получай призы!" class="news-item__pic">
+                    </div>                  
+                  </div>                
                   <div class="news-item__content">
-                    <div class="news-item__date">01.02.2016</div>
-                    <div class="news-item__title">Заражай друзей, получай призы!</div>
+                    <p class="news-item__date">01.02.2016</p>
+                    <p class="news-item__title">Заражай друзей, получай призы!</p>
                     <div class="news-item__text">
                       Быть частью сообщества сильных, грамотных и увлеченных своим делом профессионалов - вдохновляет
                       выходить на новые уровни развития. Регулярно в коворкинге проводятся лекции, мастер-классы,
@@ -114,11 +125,14 @@
                   </div>
                 </div>
                 <div class="news-item">
-                  <img src="img/news/news-03.jpg" alt="Новое рабочее место для бизнесменов." class="news-item__image" width="160px"
-                    height="160px">
+                  <div class="news-item__info">
+                    <div class="news-item__image">
+                      <img src="img/news/news-03.jpg" alt="Новое рабочее место для бизнесменов." class="news-item__pic">
+                    </div>
+                  </div>
                   <div class="news-item__content">
-                    <div class="news-item__date">22.12.2015</div>
-                    <div class="news-item__title">Новое рабочее место для бизнесменов.</div>
+                    <p class="news-item__date">22.12.2015</p>
+                    <p class="news-item__title">Новое рабочее место для бизнесменов.</p>
                     <div class="news-item__text">
                       Для резидентов коворкинга оборудована не только рабочая зона, но и зона отдыха. Она включает в
                       себя: кухонную зону и зону релакса. Каждый резидент может беспрепятственно пользоваться кухонным
@@ -164,33 +178,39 @@
     </div>
     <footer class="footer">
       <div class="container container__footer">
-        <div class="author author__footer">
-          Сделано с любовью и старанием<br> на курсе «HTML + CSS» в <a href="https://loftschool.com/course/html-css/"
-            class="author__link" target="_blank">LoftSchool</a>.
-          Автор работы: <a href="https://github.com/poymanov" class="author__link" target="_blank">Пойманов Николай</a>
+        <div class="footer__column">
+          <div class="author author__footer">
+            Сделано с любовью и старанием<br> на курсе «HTML + CSS» в <a href="https://loftschool.com/course/html-css/"
+              class="author__link" target="_blank">LoftSchool</a>.<br>
+            Автор работы: <a href="https://github.com/poymanov" class="author__link" target="_blank">Пойманов Николай</a>
+          </div>
         </div>
-        <div class="logo logo__footer">
-          <a href="#" class="logo__link"><img src="img/logo.png" alt="Коворкинг" class="logo__image"></a>
+        <div class="footer__column footer__column--center">
+          <div class="logo">
+            <a href="workadium.html" class="logo__link"><img src="img/logo.png" alt="Коворкинг" class="logo__image"></a>
+          </div>
         </div>
-        <div class="socials">
-          <div class="socials__title">Наши социальные сети</div>
-          <ul class="socials__list">
-            <li class="socials__item">
-              <a href="#" class="social__link social__link--vk">vk</a>
-            </li>
-            <li class="socials__item">
-              <a href="#" class="social__link social__link--fb">fb</a>
-            </li>
-            <li class="socials__item">
-              <a href="#" class="social__link social__link--google">google</a>
-            </li>
-            <li class="socials__item">
-              <a href="#" class="social__link social__link--tw">tw</a>
-            </li>
-            <li class="socials__item">
-              <a href="#" class="social__link social__link--mail">email</a>
-            </li>
-          </ul>
+        <div class="footer__column footer__column--right">
+          <div class="socials socials__footer">
+            <div class="socials__title">Наши социальные сети</div>
+            <ul class="socials__list">
+              <li class="socials__item">
+                <a href="#" class="social__link social__link--vk">vk</a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="social__link social__link--fb">fb</a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="social__link social__link--google">google</a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="social__link social__link--tw">tw</a>
+              </li>
+              <li class="socials__item">
+                <a href="#" class="social__link social__link--mail">email</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </footer>

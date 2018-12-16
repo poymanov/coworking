@@ -3,15 +3,20 @@
   padding: 10px 0 15px;
 }
 
-.logo__footer {
-  margin-right: 309px;
-}
-
 .container__footer {
   display: flex;
   align-items: center;
 }
 
-.author__footer {
-  margin-right: 211px;
+.footer__column {
+  display: flex;
+  flex: 1;  
+}
+
+.footer__column--center {
+  justify-content: center;
+}
+
+.footer__column--right {
+  justify-content: flex-end;
 }

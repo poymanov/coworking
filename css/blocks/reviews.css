@@ -1,9 +1,22 @@
-.reviews-item__image {
-  border-radius: 50%;
-  width: 160px;
-  margin-right: 22px;
+.reviews-item__info {
+  width: 19%;
+  margin-right: 18px;
 }
 
+.reviews-item__content {
+  width: 81%;
+}
+
+.reviews-item__image {
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.reviews-item__pic {
+  display: block;
+  max-width: 100%;
+}
 
 .reviews-content {
   margin-bottom: 20px;
@@ -24,7 +37,7 @@
   color: #656464;
   font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 14px;
-  margin-bottom: 3px;
+  margin: 0 0 3px;
   font-weight: 300;
   line-height: 1em;
 }
@@ -33,7 +46,7 @@
   font-family: 'Roboto', Helvetica, sans-serif;
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 8px;
+  margin: 0 0 8px;
 }
 
 .reviews-item__text {

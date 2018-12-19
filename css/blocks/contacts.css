@@ -9,6 +9,7 @@
 
 .contacts__work-schedule {
   text-align: right;
+  position: relative;
 }
 
 .contacts__work-schedule-link {
@@ -26,5 +27,52 @@
 }
 
 .contacts__work-schedule-details {
+  position: absolute;
+  margin-top: 22px;
+  top: 100%;
+  right: 0;
   display: none;
+  width: 163px;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  text-align: left;
+  padding: 18px 10px 15px 10px;
+  border-radius: 4px;
+}
+
+.contacts__work-schedule-details::before {
+  display: block;
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  height: 30px;
+  top: -29px;
+}
+
+.contacts__work-schedule-details::after {
+  display: block;
+  position: absolute;
+  content: "";
+  top: -28px;
+  right: 0;
+  border-left: 15px solid transparent;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid #fff;
+  border-right: 15px solid transparent;
+}
+
+.contacts__work-schedule-time {
+  font-size: 14px;
+  color: #221f1f;
+}
+
+.contacts__work-schedule-time--main {
+  color: #ec1e79;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.contacts__work-schedule:hover .contacts__work-schedule-details {
+  display: block;
 }

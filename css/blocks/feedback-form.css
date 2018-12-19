@@ -81,7 +81,8 @@
 }
 
 .feeback-form__radio + .feedback-form__label--radio:before {  
-  background-image: url("../../img/icons/radio.png");
+  background-image: url("../../img/sprites.png");
+  background-position: -10px -10px;
 }
 
 .feeback-form__radio:checked + .feedback-form__label--radio {
@@ -89,7 +90,8 @@
 }
 
 .feeback-form__radio:checked + .feedback-form__label--radio:before {  
-  background-image: url("../../img/icons/radio-checked.png");
+  background-image: url("../../img/sprites.png");
+  background-position: -50px -10px;
 }
 
 .feedback-form__label--show-photo {

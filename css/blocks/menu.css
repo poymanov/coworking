@@ -52,49 +52,60 @@
 }
 
 .menu-link--main:before {
-  background-image: url('../../img/icons/menu-main.png');
+  background-image: url('../../img/sprites.png');
+  background-position: -88px -88px;
 }
 
 .menu-item--active .menu-link--main:before,
 .menu-link--main:hover:before {
-  background-image: url('../../img/icons/menu-main-active.png');
+  background-image: url('../../img/sprites.png');
+  background-position: -130px -10px;
 }
 
 .menu-item--header.menu-item--active .menu-link:before,
 .menu-item--header .menu-link--main:hover:before {
-  background-image: url('../../img/icons/menu-main.png');
+  background-image: url('../../img/sprites.png');
+  background-position: -88px -88px;
 }
 
 .menu-link--feed:before {
-  background-image: url('../../img/icons/menu-feed.png');
+  background-image: url('../../img/sprites.png');
+  background-position: -10px -50px;
 }
 
 .menu-link--feed-header:before {
-  background-image: url('../../img/icons/menu-feed-header.png');
+  background-image: url('../../img/sprites.png');
+  background-position: -90px -10px;
 }
 
 .menu-item--active .menu-link--feed:before,
 .menu-link--feed:hover:before {
-  background-image: url('../../img/icons/menu-feed-active.png');
+  background-image: url('../../img/sprites.png');
+  background-position: -50px -50px;
 }
 
 .menu-link--feed-header:hover:before {
-  background-image: url('../../img/icons/menu-feed.png');
+  background-image: url('../../img/sprites.png');
+  background-position: -10px -50px;
 }
 
 .menu-link--wallet:before {
-  background-image: url('../../img/icons/menu-wallet.png');
+  background-image: url('../../img/sprites.png');
+  background-position: -90px -48px;  
 }
 
 .menu-link--wallet-header:before {
-  background-image: url('../../img/icons/menu-wallet-header.png');
+  background-image: url('../../img/sprites.png');
+  background-position: -49px -88px;
 }
 
 .menu-item--active .menu-link--wallet:before,
 .menu-link--wallet:hover:before {
-  background-image: url('../../img/icons/menu-wallet-active.png');
+  background-image: url('../../img/sprites.png');
+  background-position: -10px -88px;  
 }
 
 .menu-link--wallet-header:hover:before {
-  background-image: url('../../img/icons/menu-wallet.png');
+  background-image: url('../../img/sprites.png');
+  background-position: -90px -48px;
 }

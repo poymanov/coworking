@@ -39,18 +39,6 @@
   padding-left: 20px;
 }
 
-.features--flower:before {
-  background-image: url('../../img/icons/features-flower.png');
-}
-
-.features--star:before {
-  background-image: url('../../img/icons/features-star.png');
-}
-
-.features--palette:before {
-  background-image: url('../../img/icons/features-palette.png');
-}
-
 .features-item__list {
   text-align: left;
   padding-left: 62px;

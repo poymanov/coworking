@@ -1,3 +1,9 @@
 .content {
-  width: 83%;
+  width: 865px;
+  padding-top: 26px;
+}
+
+.content--reviews {
+  width: 868px;
+  padding-top: 43px;
 }

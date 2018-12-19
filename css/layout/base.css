@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  width: 1060px;
+  width: 1160px;
   margin: 0 auto;
 }
 
@@ -29,7 +29,7 @@ body {
 
 .wrapper {
   overflow: hidden;
-  min-width: 1080px;
+  min-width: 1180px;
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -51,11 +51,9 @@ ul li {
 .container--index {
   display: flex;
   justify-content: space-between;
-  padding-top: 65px;
 }
 
 .container--reviews {
   display: flex;
   justify-content: space-between;
-  padding-top: 42px;
 }

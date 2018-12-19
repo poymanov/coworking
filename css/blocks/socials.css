@@ -1,9 +1,10 @@
 .socials__title {
-  color: #ffffff;
+  color: #221f1f;
   font-family: 'Gotham Pro', Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
+  text-align: center;
 }
 
 .socials__list {
@@ -11,25 +12,20 @@
   padding: 0;
   list-style-type: none;
   display: flex;
+  padding: 0 0 0 67px;
 }
 
 .socials__item {
   font-size: 0;
-  margin-right: 11px;
+  margin-right: 10px;
 }
 
 .social__link {
   display: block;
   width: 20px;
   height: 20px;
-  background-color: #d4d4d8;
-  border-radius: 50%;
   background-position: center center;
   background-repeat: no-repeat;  
-}
-
-.social__link:hover {
-  background-color: #ec1e79;
 }
 
 .social__link--vk {

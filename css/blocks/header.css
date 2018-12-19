@@ -5,8 +5,6 @@
 .container__header {
   min-height: 77px;
   display: flex;
-  align-items: center;
-  padding-top: 7px;
 }
 
 .header__column {
@@ -14,6 +12,22 @@
   flex: 1;
 }
 
+.header__column--center {
+  flex: 2;
+}
+
 .header__column--align-right {
   justify-content: flex-end;
+}
+
+.logo__header {
+  padding-top: 14px;
+}
+
+.contacts__header {
+  padding-top: 20px;
+}
+
+.nav__header {
+  width: 100%;
 }

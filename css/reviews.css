@@ -6,12 +6,10 @@
   margin-bottom: 29px;
 }
 
-.main--reviews {
-  margin-bottom: 57px;
-}
-
 .promo--reviews {
-  margin-bottom: 56px;
+  padding-top: 23px;
+  padding-bottom: 31px;
+  margin-bottom: 25px;
 }
 
 .content-title__feedback-form {
@@ -19,6 +17,9 @@
 }
 
 .feedback--reviews {
-  margin-bottom: 49px;
+  margin-bottom: 47px;
 }
 
+.nav__reviews {
+  margin-bottom: 28px;
+}

@@ -2,10 +2,19 @@
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+}
+
+.menu__header {
+  padding-top: 23px;
 }
 
 .menu-item {
-  margin-bottom: 32px;
+  margin-right: 94px;
+}
+
+.menu-item:last-child {
+  margin-right: 0;
 }
 
 .menu-link {
@@ -22,6 +31,15 @@
 .menu-item--active .menu-link,
 .menu-link:hover {
   color: #000;
+}
+
+.menu-item--header.menu-item--active .menu-link,
+.menu-item--header .menu-link:hover {
+  color: #ec1e79;
+}
+
+.menu-item--header .menu-link {
+  color: #fff;
 }
 
 .menu-link::before {
@@ -42,8 +60,17 @@
   background-image: url('../../img/icons/menu-main-active.png');
 }
 
+.menu-item--header.menu-item--active .menu-link:before,
+.menu-item--header .menu-link--main:hover:before {
+  background-image: url('../../img/icons/menu-main.png');
+}
+
 .menu-link--feed:before {
   background-image: url('../../img/icons/menu-feed.png');
+}
+
+.menu-link--feed-header:before {
+  background-image: url('../../img/icons/menu-feed-header.png');
 }
 
 .menu-item--active .menu-link--feed:before,
@@ -51,11 +78,23 @@
   background-image: url('../../img/icons/menu-feed-active.png');
 }
 
+.menu-link--feed-header:hover:before {
+  background-image: url('../../img/icons/menu-feed.png');
+}
+
 .menu-link--wallet:before {
   background-image: url('../../img/icons/menu-wallet.png');
+}
+
+.menu-link--wallet-header:before {
+  background-image: url('../../img/icons/menu-wallet-header.png');
 }
 
 .menu-item--active .menu-link--wallet:before,
 .menu-link--wallet:hover:before {
   background-image: url('../../img/icons/menu-wallet-active.png');
+}
+
+.menu-link--wallet-header:hover:before {
+  background-image: url('../../img/icons/menu-wallet.png');
 }

@@ -1,14 +1,14 @@
 .partner {
-  margin-right: 112px;
-  margin-bottom: 48px;
+  margin-bottom: 33px;
+  display: block;
+  padding-left: 18px;
 }
 
-.partner:nth-child(3n+3) {
-  margin-right: 0;
+.partner:last-child {
+  margin-bottom: 0;
 }
 
 .partner__link {
-  width: 160px;
   display: block;
   text-align: center;
 }

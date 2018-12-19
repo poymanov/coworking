@@ -8,7 +8,6 @@
 .container--prices {
   display: flex;
   justify-content: space-between;
-  padding-top: 42px;
 }
 
 .breadcrumbs--prices {
@@ -20,10 +19,13 @@
 }
 
 .prices--prices {
-  margin-bottom: 27px;
+  margin-bottom: 65px;
 }
 
-.partners--prices {
-  margin-bottom: 40px;
+.content--prices {
+  padding-top: 29px;
 }
 
+.nav--prices {
+  margin-bottom: 25px;
+}

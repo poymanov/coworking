@@ -1,4 +1,14 @@
-.content-title--partners {
-  padding-left: 4px;
-  margin-bottom: 48px;
+.partners__title {
+  text-align: center;
+  color: #221f1f;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 45px;
+}
+
+.partners--prices {
+  border: 1px solid #e8e9ed;
+  margin-bottom: 25px;
+  padding: 23px 0 22px 0;
 }

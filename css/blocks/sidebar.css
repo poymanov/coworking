@@ -1,3 +1,16 @@
 .sidebar {
-  width: 15%;
+  width: 272px;  
+}
+
+.sidebar--index {
+  padding-top: 30px;
+}
+
+.sidebar--reviews {
+  width: 274px;  
+  padding-top: 50px;
+}
+
+.sidebar--prices {
+  padding-top: 30px;
 }

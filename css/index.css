@@ -1,0 +1,13 @@
+@import url('layout/normalize.css');
+@import url('layout/base.css');
+@import url('layout/fonts.css');
+@import url('blocks/index-content.css');
+
+.wrapper__index {
+  background: url(../img/index-bg.jpg) center center no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-size: 100%;
+  align-items: center;
+}

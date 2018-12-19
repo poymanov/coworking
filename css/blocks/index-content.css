@@ -1,0 +1,26 @@
+.index-content {
+  width: 182px;
+}
+
+.index-content__img {
+  margin-bottom: 29px;
+}
+
+.index-content__pic {
+  display: block;
+  margin: 0 auto;
+}
+
+.index-content__link {
+  display: block;
+  color: #ec1e79;
+  font-size: 12px;
+  font-weight: 700;  
+  text-transform: uppercase;
+  border: 3px solid #ec1e79;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  letter-spacing: 1.2px;
+}
